@@ -1,11 +1,10 @@
 
 package advanced.accessmodifiers;
 
-public class Derrived extends Base {
+public class Derrived  {
 	public String derivedVariable = "Derived Class Public Variable";
 
     
-    @Override
     public void baseMethod() {
         System.out.println("Derived Class Public Method (overriding Base Class)");
     }
